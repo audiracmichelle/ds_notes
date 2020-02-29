@@ -1,6 +1,6 @@
 # ds_notes
 
-- [ ] **lin_reg** linear regression
+- [ ] **basics**
 
    + interaction
    + interpretation
