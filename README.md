@@ -2,15 +2,19 @@
 
 - [ ] **lin_reg** linear regression
 
-   + Interactions
+   + interaction
+   + interpretation
+   + hypothesis testing
    + p-values
-
-- [ ] **hypothesis** hypothesis testing
-
-   + Confidence intervals
+   + confidence intervals
+   + types of errors
    + AB tests
 
-- [ ] **experiment** 
+- [ ] **experiment** experiment design
+
+- [ ] **product**
+
+   + concierge MVP
 
 
 
