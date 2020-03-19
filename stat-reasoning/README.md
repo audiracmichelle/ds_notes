@@ -1,6 +1,8 @@
-# lin_reg
+# stat-reasoning
 
-## Interaction
+## Linear Regression
+
+### Interaction
 
 - [ ] YouTube [Interpreting Interaction in Linear Regression](https://www.youtube.com/watch?v=vZUtDJbzFRQ)
 
@@ -26,9 +28,13 @@
    - it should make sense conceptually
    - interaction term should be statistically significant
 
-## Interpretation of $\beta$
+### Interpretation of $\beta$
 
 * A direct interpretation of $\beta$ depends on how you worked your data. Were the columns standardized? Did data went through a pca transformation? So let's think of the simplest case where features are standardizd and features are not correlated. In this case, the $\beta$ is simply the correlation between each feature and the dependent variable weighted down by the variance of each feature...if a variable is highly correlated with the dependent variable but has high variance then...
+
+### Logistic regression
+
+- [ ] [logistic regression](https://towardsdatascience.com/logit-of-logistic-regression-understanding-the-fundamentals-f384152a33d1)
 
 ## Hypothesis Test
 
@@ -43,8 +49,10 @@
 
 ## p-value
 
-* Probability that randomn chance generated the value or something rarer [1](https://www.youtube.com/watch?v=5Z9OIYA8He8&feature=emb_rel_pause)
+* Probability that random chance generated the value or something rarer [1](https://www.youtube.com/watch?v=5Z9OIYA8He8&feature=emb_rel_pause)
 * The p-value is used in the context of null hypothesis testing in order to quantify the idea of statistical significance of evidence, a claim is assumed valid if its counter-claim is improbable [2](https://en.wikipedia.org/wiki/P-value)
 * If the p-value is less than your significance level, you can reject the null and conclude that the effect is statistically significant. In other words, the evidence in your sample is strong enough to be able to reject the null hypothesis at the population level [3](https://statisticsbyjim.com/hypothesis-testing/statistical-hypothesis-testing-overview/)
 
 ## types of errors
+
+- [ ] [https://www.youtube.com/user/joshstarmer](https://www.youtube.com/user/joshstarmer)

@@ -1,6 +1,6 @@
 # ds_notes
 
-- [ ] **basics**
+- [ ] [./stat-reasoning](./stat-reasoning)
 
    + interaction
    + interpretation
@@ -10,11 +10,9 @@
    + types of errors
    + AB tests
 
-- [ ] **experiment** experiment design
+- [ ] [./model_eval](./model_eval)
 
-- [ ] **product**
-
-   + concierge MVP
+- [ ] causality courses in coursera (https://www.coursera.org/learn/real-life-data-science)[https://www.coursera.org/learn/real-life-data-science]
 
 
 
