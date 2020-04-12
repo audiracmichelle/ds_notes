@@ -1,4 +1,6 @@
-# Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning
+# model_eval
+
+Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning
 
 ## Abstract
 
