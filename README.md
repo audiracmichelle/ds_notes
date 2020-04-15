@@ -12,15 +12,21 @@
 
 + Cracking the code interview [./cracking_code](./cracking_code)
 
-+ Springboard machine learning questions [./springboard_ml.md](./springboard_ml.md)
++ Python [./python](./python)
 
-+ Interview Query questions [./interview_query](./interview_query)
+   - interview query exercises
+
++ Machine learning [./machine_learning/](./machine_learning/)
+
+   - springboard machine learning questions
 
 + Raschka papers [./raschka](./raschka)
 
    + bias-variance trade-off
 
-+ Python basics [./python](./python)
++ https://chrisalbon.com/
+
++ https://www.geeksforgeeks.org/facebook-interview-preparation/
 
 ## more resources
 
