@@ -1,6 +1,5 @@
-# raschka
+# machine_learning
 
-+ Model selection paper [./model_eval.pdf](./model_eval.pdf)
++ Raschka model selection paper [./model_eval.md](./model_eval.md)
 
-  - [ ] Notes [./model_eval.md](./mode_eval.md)
-
++ Springboard machine learning questions

@@ -128,6 +128,8 @@ They can be used to measure variable importance. All tress having a feature are 
 
 Ada Boost is another example of ensembles. The difference between ada boost and random forests is that ada boost is not an ensemble of trees but rather an ensemble of stumps. Stumps are decision trees made of only the root and two leafs. Another key difference is that not all stumps are assigned the same weight when aggregating their outputs. The weight will be determined by each stump's predicting error. Finally, during training each stumps will try to compensate for the errors made by the previous stump.
 
+**Boosting** is a general technique that keeps adding weak learners to correct classification errors.
+
 - [x] bagging and random forests [https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
 - [ ] ada boost [https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/)
 - [x] Stat Quest!

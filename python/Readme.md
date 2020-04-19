@@ -1,4 +1,6 @@
-# Python
+# python
+
++ Interview Query python interview questions [./interview_query](./interview_query)
 
 ## Python in Visual Studio Code
 

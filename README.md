@@ -10,7 +10,7 @@
    + types of errors
    + AB tests
 
-+ Cracking the code interview [./cracking_code](./cracking_code)
++ Algorithms (cracking the code interview) [./cracking_code](./cracking_code)
 
 + Python [./python](./python)
 
@@ -20,9 +20,9 @@
 
    - springboard machine learning questions
 
-+ Raschka papers [./raschka](./raschka)
+   - Raschka model evaluation paper
 
-   + bias-variance trade-off
++ Cultural fit + behavior questions [./cultural](./cultural)
 
 + https://chrisalbon.com/
 
