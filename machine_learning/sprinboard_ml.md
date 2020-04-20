@@ -2,7 +2,7 @@
 
 41 Essential Machine Learning Interview Questions from Springboard [https://www.springboard.com/blog/machine-learning-interview-questions/](https://www.springboard.com/blog/machine-learning-interview-questions/)
 
-**key words**: algorithm, instances, satisfy the condition
+**key words**: algorithm, instances, satisfy the condition, guesses, training error, optimistically biased, pessimistically biased, generalization, decision rule
 
 ## Question 1: What’s the trade-off between bias and variance?
 
@@ -119,7 +119,7 @@ There are several ways to get the impurity score of a feature:
 
 A random forest is an ensemble of decision trees. Because decision trees tend to overfit the data, it makes sense to aggregate the output of several smaller trees small to get an output label. The smaller trees are trained with just a subset of the data and each one considers only a reduced number of features. 
 
-The subsets of data that train the smaller trees are generated with bootstrapping. The technique where we do bootstrapping to sample data to then apply a function to each sample and aggregate the output is called **bagging**. Entries that fall outside a training sample that was created with bootstrap are called the out-of-bag dataset. We measure the out-of-bag error to obtain the best performing forest.
+The subsets of data that train the smaller trees are generated with bootstrapping. The technique where we do bootstrapping to sample data to then apply a function to each sample and aggregate the output is called **bagging**. Bagging reduces the variance of estimations. Entries that fall outside a training sample that was created with bootstrap are called the out-of-bag dataset. We measure the out-of-bag error to obtain the best performing forest.
 
 * In classification the output of the forest is the class with more votes, votes being the output of the trees in the random forest.
 * In regression the output of the forest is the average of all the output values of the trees in the random forest. 
@@ -128,12 +128,17 @@ They can be used to measure variable importance. All tress having a feature are 
 
 Ada Boost is another example of ensembles. The difference between ada boost and random forests is that ada boost is not an ensemble of trees but rather an ensemble of stumps. Stumps are decision trees made of only the root and two leafs. Another key difference is that not all stumps are assigned the same weight when aggregating their outputs. The weight will be determined by each stump's predicting error. Finally, during training each stumps will try to compensate for the errors made by the previous stump.
 
-**Boosting** is a general technique that keeps adding weak learners to correct classification errors.
+**Boosting** is a general technique that keeps adding weak learners to correct classification errors. Boosting reduces the bias of weak learners like stumps.
 
 - [x] bagging and random forests [https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
 - [ ] ada boost [https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/)
 - [x] Stat Quest!
 
+Gradient boosting 
+
+Compute mean output and use features to predict pseudo residuals (interaction analysis)
+Jerome Friedman
+"Taking a lot of small steps in the right direction"
 
 
 
