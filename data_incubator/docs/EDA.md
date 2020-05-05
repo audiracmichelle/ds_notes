@@ -13,14 +13,14 @@ that might come.
 
     library(tidyverse)
 
-    ## ── Attaching packages ──────────────────── tidyverse 1.2.1 ──
+    ## ── Attaching packages ────────────────────── tidyverse 1.2.1 ──
 
     ## ✔ ggplot2 3.2.1     ✔ purrr   0.3.2
     ## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
     ## ✔ tidyr   1.0.0     ✔ stringr 1.4.0
     ## ✔ readr   1.3.1     ✔ forcats 0.4.0
 
-    ## ── Conflicts ─────────────────────── tidyverse_conflicts() ──
+    ## ── Conflicts ───────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
 
@@ -40,7 +40,7 @@ that might come.
     library(feather)
 
 Covid deaths per county
-=======================
+-----------------------
 
 Data pulled from New York Times and Johns Hopkins github repositories
 provide:
@@ -262,58 +262,37 @@ When did the interventions occurred?
              restaurants_after_thresh = restaurants - date, 
              entertainment_after_thresh = entertainment - date)
 
-    print("total")
-
-    ## [1] "total"
-
+    #total
     length(unique(after_thresh$fips))
 
     ## [1] 1521
 
-    print("gt500")
-
-    ## [1] "gt500"
-
+    #gt500
     length(unique(after_thresh$fips[after_thresh$gt500_after_thresh > 0]))
 
     ## [1] 79
 
-    print("gt50")
-
-    ## [1] "gt50"
-
+    #gt50
     length(unique(after_thresh$fips[after_thresh$gt50_after_thresh > 0]))
 
     ## [1] 102
 
-    print("stayhome")
-
-    ## [1] "stayhome"
-
+    #stayhome
     length(unique(after_thresh$fips[after_thresh$stayhome_after_thresh > 0]))
 
     ## [1] 313
 
-    print("schools")
-
-    ## [1] "schools"
-
+    #schools
     length(unique(after_thresh$fips[after_thresh$schools_after_thresh > 0]))
 
     ## [1] 52
 
-    print("restaurants")
-
-    ## [1] "restaurants"
-
+    #restaurants
     length(unique(after_thresh$fips[after_thresh$restaurants_after_thresh > 0]))
 
     ## [1] 74
 
-    print("entertainment")
-
-    ## [1] "entertainment"
-
+    #entertainment
     length(unique(after_thresh$fips[after_thresh$entertainment_after_thresh > 0]))
 
     ## [1] 110
@@ -333,7 +312,7 @@ When did the interventions occurred?
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](EDA_files/figure-markdown_strict/unnamed-chunk-20-1.png)
+![](EDA_files/figure-markdown_strict/unnamed-chunk-19-1.png)
 
 **Next steps**
 

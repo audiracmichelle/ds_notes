@@ -1,0 +1,53 @@
+---
+title: "section_2"
+output: md_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+dt = read.delim2("./PartD_Prescriber_PUF_NPI_17.txt", quote="")
+```
+
+## Question 1
+
+```{r}
+dt_1 <- dt %>% 
+  group_by(npi) %>% 
+  summarise(npi_bene_count = sum(bene_count, na.rm = TRUE))
+dt_1
+```
+
+```{r}
+dt_1 <- dt_1[-(1:2), ]
+summary(dt_1$npi_bene_count)
+```
+
+## Question 2
+
+```{r}
+dt$total_claim_count_ <- as.numeric(as.character(dt$total_claim_count))
+```
+
+```{r}
+dt$brand_claim_count_ <- as.numeric(as.character(dt$brand_claim_count))
+```
+
+```{r}
+dt_2 <- dt %>% 
+  select(specialty_description, 
+         total_claim_count_, 
+         brand_claim_count_) %>% 
+  group_by(specialty_description) %>% 
+  summarise(spec_total_claim_count = sum(total_claim_count_, na.rm = TRUE), 
+            spec_brand_claim_count = sum(brand_claim_count_, na.rm = TRUE), 
+            fraction = spec_brand_claim_count / spec_total_claim_count) %>% 
+  filter(spec_total_claim_count >= 1000)
+dt_2
+```
+
+```{r}
+sd(dt_2$fraction)
+```
