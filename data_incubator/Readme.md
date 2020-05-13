@@ -12,3 +12,9 @@ It is clear that lockdown has mitigated the spread of the 2019 novel coronavirus
 
 - [ ] https://statmodeling.stat.columbia.edu/2020/03/29/the-second-derivative-of-the-time-trend-on-the-log-scale/
 - [ ] http://brane-space.blogspot.com/2020/05/the-covid-19-r-nought-and-critical.html
+
+## Other applicants work
+At the interview, fellow applicants shared their work:
+* https://github.com/sdillavou/Data_Incubator_Assets/blob/master/TDI_Project_Pitch_Dillavou.pdf
+* https://github.com/MFein/TDI_application
+* https://omidmech.github.io/job.interview/index.html
